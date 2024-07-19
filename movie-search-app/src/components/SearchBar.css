@@ -1,0 +1,136 @@
+/* src/components/SearchBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.search-bar {
+  margin: 20px auto;
+  width: 50%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-container {
+  position: relative;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-right: 40px; /* Add space for the clear button */
+}
+
+.clear-button {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  transform: translateY(-35%);
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0;
+}
+/* src/components/SearchBar.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.search-bar {
+  margin: 20px auto;
+  width: 50%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input-container {
+  position: relative;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-right: 40px; /* Add space for the clear button */
+}
+
+.clear-button {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  transform: translateY(-35%);
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;  /* Updated width */
+  height: 15px;  /* Updated height */
+  border-radius: 50%;
+  padding: 0;
+}
+
+.clear-button:hover {
+  color: #333;
+}
+
+.search-bar button {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.clear-button:hover {
+  color: #333;
+}
+
+.search-bar button {
+  width: 40%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
